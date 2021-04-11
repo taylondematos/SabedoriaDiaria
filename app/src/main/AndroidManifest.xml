@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.catshouse.sabedoriadiaria2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/biblia"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/biblia"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SabedoriaDiaria2">
+        <activity android:name=".ProverbiosActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.SabedoriaDiaria2.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
